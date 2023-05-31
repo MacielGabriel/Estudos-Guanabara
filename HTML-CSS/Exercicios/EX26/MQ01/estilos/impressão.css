@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* CSS para impressão*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+    font-size: 2em;
+}
+
+header> menu{
+    display: none;
+}
+
+main> article> h2{
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+main> article{
+    text-align: justify;
+    padding: 15px;
+    width: 98%;
+}
+
+article::after{
+    content: 'Esse artigo foi criado por Gabriel Maciel';
+}

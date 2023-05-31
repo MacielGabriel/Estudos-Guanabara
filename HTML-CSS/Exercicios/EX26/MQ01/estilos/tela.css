@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* CSS para Tela*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.780);
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px;
+}
+
+header> h1{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+menu ul {
+    list-style-type: none;
+}
+
+menu li{
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+
+article{
+    width: 600px;
+    margin: auto;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.350);
+    padding: 15px;
+    border-radius: 1px 1px 10px 10px;
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.200);
+}
+
+article>h2{
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
